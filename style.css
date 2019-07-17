@@ -1,38 +1,45 @@
-html, body, header {
-    
-    height: 100%;
+body, header {
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    margin: 0;
 }
 
 header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
     width: 100%;
     background-color: lightslategrey;
     color: white;
     text-align: center;
-    
 }
 
-.full_height {
-    padding: 300px;
-    height: 100%;
+footer {
+    margin: 0;
+    height: auto;
+    position: relative;
+    display: block;
+    text-align: center;
 }
+
 
 body {
     text-align: left;
-    
 }
 
 .center_column {
-    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 20px;
     margin: auto;
-    display: block;
     width: 30%;
-    
 }
 
 .header_title {
+    padding-top: 300px;
+    padding-bottom: 25px;
     font-family: 'Montserrat', sans-serif;
     font-size: 68px;
-    padding: 25px;
 }
 
 .header_subtitle {
