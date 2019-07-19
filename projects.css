@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: #8a8a8a white;
+    scrollbar-width: thin;
+}
+
+body, header {
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+
+body {
+    color: white;
+    margin: 0;
+    background-color: black;
+    text-align: left;
+}
+
+.center_column {
+    font-family: 'Darker Grotesque', sans-serif;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+}
+
+.white_column {
+    color: black;
+    font-family: 'Darker Grotesque', sans-serif;
+    width: 100%;
+    background-color: white;
+}
+
+.dm_serif {
+    font-family: 'DM Serif Display', serif;
+}
+.header_title {
+    text-align: center;
+    padding-top: 34vh;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 68px;
+}
+
+.header_subtitle {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.header_pagelinks {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.down_arrow {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.up_arrow {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgrey;
+}
